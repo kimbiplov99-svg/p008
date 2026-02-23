@@ -1,1 +1,7 @@
-https://p008-4qnl-kimbiplov99-6070s-projects.vercel.app/
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
